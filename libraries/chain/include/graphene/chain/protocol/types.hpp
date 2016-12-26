@@ -237,6 +237,7 @@ namespace graphene { namespace chain {
    typedef safe<int64_t>                                        share_type;
    typedef uint16_t                                             weight_type;
    typedef fc::ripemd160                                        goods_id_type;
+   typedef fc::ripemd160                                        product_id_type;
 
    struct public_key_type
    {

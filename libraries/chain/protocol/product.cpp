@@ -21,35 +21,24 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-#include <graphene/chain/protocol/goods.hpp>
+#include <graphene/chain/protocol/product.hpp>
 
 namespace graphene { namespace chain {
 
-   void goods::validate() const 
+   void product::validate() const 
+   {
+      
+   }
+
+   void product_create_operation::validate() const 
    {
 
    }
 
-   share_type goods_create_operation::calculate_fee(const goods_create_operation::fee_parameters_type& param)const
+   share_type product_create_operation::calculate_fee(const product_create_operation::fee_parameters_type& param)const
    {
       // TODO
       return param.basic_fee;
-   }
-
-   void goods_create_operation::validate() const 
-   {
-
-   }
-
-   share_type goods_deliver_operation::calculate_fee(const goods_deliver_operation::fee_parameters_type& param)const
-   {
-      // TODO
-      return param.basic_fee;
-   }
-
-   void goods_deliver_operation::validate() const 
-   {
-
    }
 
 } }

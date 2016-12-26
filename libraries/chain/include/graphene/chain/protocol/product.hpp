@@ -28,19 +28,15 @@
 
 namespace graphene { namespace chain {
    /**
-    * @brief Goods means a single product generation
+    * @brief Product means description of goods
     *
-    * Every goods has a unique token(public key) to identify it, goods could 
-    * delivered between accounts, it can be treated as ownership transfer, 
-    * the goods also could be owned by multiple accounts (share mode)
+    * Authed account(corp) could register(create) product on chain
     */
-   struct goods
+   struct product
    {
-      goods( product_id_type product_id, goods_id_type goods_id = goods_id_type() )
-      :id(goods_id){}
-
-      goods_id_type id;
-      product_id_type product_id;
+      product( product_id_type id = product_id_type() )
+      :id(id){}
+      product_id_type id;
 
       void validate() const;
 
@@ -49,7 +45,7 @@ namespace graphene { namespace chain {
    /**
     * @ingroup operations
     */
-   struct goods_create_operation : public base_operation
+   struct product_create_operation : public base_operation
    {
       struct fee_parameters_type
       {
@@ -58,42 +54,18 @@ namespace graphene { namespace chain {
       };
 
       asset           fee;
-      /// This account must sign and pay the fee for this operation. Later, this account may update the goods
+      /// This account must sign and pay the fee for this operation. Later, this account may update the product
       account_id_type         issuer;
 
       account_id_type fee_payer()const { return issuer; }
       void            validate()const;
       share_type      calculate_fee(const fee_parameters_type& )const;
    };
-
-   struct goods_deliver_operation : public base_operation
-   {
-      struct fee_parameters_type
-      {
-         uint64_t basic_fee       = 5*GRAPHENE_BLOCKCHAIN_PRECISION;
-         uint32_t price_per_kbyte = GRAPHENE_BLOCKCHAIN_PRECISION;
-      };
-
-      asset           fee;
-
-      account_id_type         from;
-      account_id_type         to;
-
-      account_id_type fee_payer()const { return from; }
-      void            validate()const;
-      share_type      calculate_fee(const fee_parameters_type& )const;
-   };
 } }
 
-FC_REFLECT( graphene::chain::goods, (product_id)(id) )
-FC_REFLECT( graphene::chain::goods_create_operation::fee_parameters_type, (basic_fee)(price_per_kbyte) )
-FC_REFLECT( graphene::chain::goods_deliver_operation::fee_parameters_type, (basic_fee)(price_per_kbyte) )
-FC_REFLECT( graphene::chain::goods_create_operation,
+FC_REFLECT( graphene::chain::product, (id) )
+FC_REFLECT( graphene::chain::product_create_operation::fee_parameters_type, (basic_fee)(price_per_kbyte) )
+FC_REFLECT( graphene::chain::product_create_operation,
             (fee)
             (issuer)
-          )
-FC_REFLECT( graphene::chain::goods_deliver_operation,
-            (fee)
-            (from)
-            (to)
           )

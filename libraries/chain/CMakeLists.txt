@@ -59,6 +59,7 @@ add_library( graphene_chain
              protocol/vote.cpp
 
              protocol/goods.cpp
+             protocol/product.cpp
 
              genesis_state.cpp
              get_config.cpp
