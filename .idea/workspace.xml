@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="BitShares" targetName="bloom_test" />
+      <config projectName="BitShares" targetName="graphene_delayed_node" />
+      <config projectName="BitShares" targetName="size_checker" />
+      <config projectName="BitShares" targetName="cat-parts" />
+      <config projectName="BitShares" targetName="graphene_net" />
+      <config projectName="BitShares" targetName="graphene_chain" />
+      <config projectName="BitShares" targetName="hmac_test" />
+      <config projectName="BitShares" targetName="real128_test" />
+      <config projectName="BitShares" targetName="project_secp256k1" />
+      <config projectName="BitShares" targetName="ecc_test" />
+      <config projectName="BitShares" targetName="chain_test" />
+      <config projectName="BitShares" targetName="blinding_test" />
+      <config projectName="BitShares" targetName="chain_bench" />
+      <config projectName="BitShares" targetName="graphene_time" />
+      <config projectName="BitShares" targetName="graphene_db" />
+      <config projectName="BitShares" targetName="convert_address" />
+      <config projectName="BitShares" targetName="graphene_utilities" />
+      <config projectName="BitShares" targetName="witness_node" />
+      <config projectName="BitShares" targetName="ntp_test" />
+      <config projectName="BitShares" targetName="js_operation_serializer" />
+      <config projectName="BitShares" targetName="cli_wallet" />
+      <config projectName="BitShares" targetName="generate_empty_blocks" />
+      <config projectName="BitShares" targetName="graphene_wallet" />
+      <config projectName="BitShares" targetName="deterministic_openssl_rand" />
+      <config projectName="BitShares" targetName="delayed_node" />
+      <config projectName="BitShares" targetName="udt_server" />
+      <config projectName="BitShares" targetName="graphene_egenesis_none" />
+      <config projectName="BitShares" targetName="fc" />
+      <config projectName="BitShares" targetName="intense_test" />
+      <config projectName="BitShares" targetName="graphene_witness" />
+      <config projectName="BitShares" targetName="api" />
+      <config projectName="BitShares" targetName="blind" />
+      <config projectName="BitShares" targetName="build_hardfork_hpp" />
+      <config projectName="BitShares" targetName="graphene_debug_witness" />
+      <config projectName="BitShares" targetName="embed_genesis" />
+      <config projectName="BitShares" targetName="app_test" />
+      <config projectName="BitShares" targetName="genesis_update" />
+      <config projectName="BitShares" targetName="debug_node" />
+      <config projectName="BitShares" targetName="performance_test" />
+      <config projectName="BitShares" targetName="graphene_account_history" />
+      <config projectName="BitShares" targetName="udt_client" />
+      <config projectName="BitShares" targetName="graphene_egenesis_full" />
+      <config projectName="BitShares" targetName="all_tests" />
+      <config projectName="BitShares" targetName="graphene_egenesis_brief" />
+      <config projectName="BitShares" targetName="get_dev_key" />
+      <config projectName="BitShares" targetName="member_enumerator" />
+      <config projectName="BitShares" targetName="udt" />
+      <config projectName="BitShares" targetName="task_cancel_test" />
+      <config projectName="BitShares" targetName="graphene_market_history" />
+      <config projectName="BitShares" targetName="graphene_app" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" GENERATION_DIR=".">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="OPENSSL_ROOT_DIR" value="/usr/local/opt/openssl/" />
+            <env name="OPENSSL_INCLUDE_DIR" value="/usr/local/opt/openssl/includ" />
+            <env name="OPENSSL_LIBRARIES" value="/usr/local/opt/openssl/lib" />
+            <env name="BOOST_INCLUDEDIR" value="/usr/local/opt/boost159/include/" />
+            <env name="BOOST_LIBRARYDIR" value="/usr/local/opt/boost159/lib/" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="269e3b0b-bede-4c85-89cd-73e8cb37f0a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/db/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/chain/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/fc/vendor/websocketpp/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/programs/witness_node/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/plugins/delayed_node/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/programs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/tests/generate_empty_blocks/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/plugins/debug_witness/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/programs/cli_wallet/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/egenesis/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/programs/delayed_node/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/programs/size_checker/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/fc/vendor/websocketpp/websocketpp/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/plugins/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/tests/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/deterministic_openssl_rand/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/fc/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/programs/build_helpers/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/programs/js_operation_serializer/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/fc/vendor/udt4/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/programs/genesis_util/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/plugins/witness/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/programs/debug_node/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/app/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/utilities/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/plugins/market_history/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/wallet/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/plugins/account_history/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/time/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/libraries/net/CMakeFiles/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="BitShares" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="base.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/base.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+              <folding>
+                <element signature="e#4158#4170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="address.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/address.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="86" column="3" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
+              <folding>
+                <element signature="e#3365#3367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ext.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/ext.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2598">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="committee_member.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/committee_member.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chain_parameters.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/chain_parameters.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1053">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transaction.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/transaction.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-375">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#1176#1225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="witness.hpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/witness.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="witness.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/chain/protocol/witness.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/libraries/chain/account_evaluator.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/account.hpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1237" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Python</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="programs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protocol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protocol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bitshares-2" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bitshares-2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bitshares-2" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bitshares-2" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bitshares-2" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bitshares-2" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bitshares-2" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_app" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_app" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="build_hardfork_hpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="build_hardfork_hpp" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_chain" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_chain" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_db" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_db" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="deterministic_openssl_rand" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="deterministic_openssl_rand" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="embed_genesis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="embed_genesis" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="embed_genesis">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_egenesis_brief" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_egenesis_brief" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_egenesis_full" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_egenesis_full" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_egenesis_none" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_egenesis_none" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="all_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="all_tests" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="all_tests">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="api" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="api" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="api">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="blind" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="blind" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="blind">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="blinding_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="blinding_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="blinding_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bloom_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="bloom_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="bloom_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ecc_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="ecc_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="ecc_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="fc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="fc" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="hmac_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="hmac_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="hmac_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ntp_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="ntp_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="ntp_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="project_secp256k1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="project_secp256k1" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="real128_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="real128_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="real128_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="task_cancel_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="task_cancel_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="task_cancel_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="udt_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="udt_client" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="udt_client">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="udt_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="udt_server" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="udt_server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="udt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="udt" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_net" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_net" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_account_history" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_account_history" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_debug_witness" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_debug_witness" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_delayed_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_delayed_node" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_market_history" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_market_history" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_witness" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_witness" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_time" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_time" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_utilities" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_utilities" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="graphene_wallet" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="graphene_wallet" CONFIG_NAME="Default">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="cat-parts" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="cat-parts" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="cat-parts">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="member_enumerator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="member_enumerator" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="member_enumerator">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="cli_wallet" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="cli_wallet" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="cli_wallet">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="debug_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="debug_node" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="debug_node">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="delayed_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="delayed_node" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="delayed_node">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="convert_address" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="convert_address" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="convert_address">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="genesis_update" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="genesis_update" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="genesis_update">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="get_dev_key" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="get_dev_key" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="get_dev_key">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="js_operation_serializer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="js_operation_serializer" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="js_operation_serializer">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="size_checker" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="size_checker" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="size_checker">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="witness_node" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="witness_node" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="witness_node">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="app_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="app_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="app_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="chain_bench" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="chain_bench" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="chain_bench">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="chain_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="chain_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="chain_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="intense_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="intense_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="intense_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="performance_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="performance_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="performance_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="generate_empty_blocks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BitShares" TARGET_NAME="generate_empty_blocks" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="BitShares" RUN_TARGET_NAME="generate_empty_blocks">
+      <envs />
+      <method />
+    </configuration>
+    <list size="51">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.graphene_app" />
+      <item index="2" class="java.lang.String" itemvalue="Application.build_hardfork_hpp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.graphene_chain" />
+      <item index="4" class="java.lang.String" itemvalue="Application.graphene_db" />
+      <item index="5" class="java.lang.String" itemvalue="Application.deterministic_openssl_rand" />
+      <item index="6" class="java.lang.String" itemvalue="Application.embed_genesis" />
+      <item index="7" class="java.lang.String" itemvalue="Application.graphene_egenesis_brief" />
+      <item index="8" class="java.lang.String" itemvalue="Application.graphene_egenesis_full" />
+      <item index="9" class="java.lang.String" itemvalue="Application.graphene_egenesis_none" />
+      <item index="10" class="java.lang.String" itemvalue="Application.all_tests" />
+      <item index="11" class="java.lang.String" itemvalue="Application.api" />
+      <item index="12" class="java.lang.String" itemvalue="Application.blind" />
+      <item index="13" class="java.lang.String" itemvalue="Application.blinding_test" />
+      <item index="14" class="java.lang.String" itemvalue="Application.bloom_test" />
+      <item index="15" class="java.lang.String" itemvalue="Application.ecc_test" />
+      <item index="16" class="java.lang.String" itemvalue="Application.fc" />
+      <item index="17" class="java.lang.String" itemvalue="Application.hmac_test" />
+      <item index="18" class="java.lang.String" itemvalue="Application.ntp_test" />
+      <item index="19" class="java.lang.String" itemvalue="Application.project_secp256k1" />
+      <item index="20" class="java.lang.String" itemvalue="Application.real128_test" />
+      <item index="21" class="java.lang.String" itemvalue="Application.task_cancel_test" />
+      <item index="22" class="java.lang.String" itemvalue="Application.udt_client" />
+      <item index="23" class="java.lang.String" itemvalue="Application.udt_server" />
+      <item index="24" class="java.lang.String" itemvalue="Application.udt" />
+      <item index="25" class="java.lang.String" itemvalue="Application.graphene_net" />
+      <item index="26" class="java.lang.String" itemvalue="Application.graphene_account_history" />
+      <item index="27" class="java.lang.String" itemvalue="Application.graphene_debug_witness" />
+      <item index="28" class="java.lang.String" itemvalue="Application.graphene_delayed_node" />
+      <item index="29" class="java.lang.String" itemvalue="Application.graphene_market_history" />
+      <item index="30" class="java.lang.String" itemvalue="Application.graphene_witness" />
+      <item index="31" class="java.lang.String" itemvalue="Application.graphene_time" />
+      <item index="32" class="java.lang.String" itemvalue="Application.graphene_utilities" />
+      <item index="33" class="java.lang.String" itemvalue="Application.graphene_wallet" />
+      <item index="34" class="java.lang.String" itemvalue="Application.cat-parts" />
+      <item index="35" class="java.lang.String" itemvalue="Application.member_enumerator" />
+      <item index="36" class="java.lang.String" itemvalue="Application.cli_wallet" />
+      <item index="37" class="java.lang.String" itemvalue="Application.debug_node" />
+      <item index="38" class="java.lang.String" itemvalue="Application.delayed_node" />
+      <item index="39" class="java.lang.String" itemvalue="Application.convert_address" />
+      <item index="40" class="java.lang.String" itemvalue="Application.genesis_update" />
+      <item index="41" class="java.lang.String" itemvalue="Application.get_dev_key" />
+      <item index="42" class="java.lang.String" itemvalue="Application.js_operation_serializer" />
+      <item index="43" class="java.lang.String" itemvalue="Application.size_checker" />
+      <item index="44" class="java.lang.String" itemvalue="Application.witness_node" />
+      <item index="45" class="java.lang.String" itemvalue="Application.app_test" />
+      <item index="46" class="java.lang.String" itemvalue="Application.chain_bench" />
+      <item index="47" class="java.lang.String" itemvalue="Application.chain_test" />
+      <item index="48" class="java.lang.String" itemvalue="Application.intense_test" />
+      <item index="49" class="java.lang.String" itemvalue="Application.performance_test" />
+      <item index="50" class="java.lang.String" itemvalue="Application.generate_empty_blocks" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",KIND,ALPHA_COMPARATOR" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="269e3b0b-bede-4c85-89cd-73e8cb37f0a2" name="Default" comment="" />
+      <created>1483280519795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1483280519795</updated>
+      <workItem from="1483280523666" duration="3099000" />
+      <workItem from="1483283820981" duration="2267000" />
+      <workItem from="1483332354010" duration="1216000" />
+      <workItem from="1483333934893" duration="312000" />
+      <workItem from="1483334269740" duration="483000" />
+      <workItem from="1483334786526" duration="397000" />
+      <workItem from="1483335202017" duration="4085000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11859000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1237" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24753289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29041097" sideWeight="0.496875" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29178083" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39854014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33868614" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33868614" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.291372" sideWeight="0.496875" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29216468" sideWeight="0.503125" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23505655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39854014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/docs" />
+      <path value="$PROJECT_DIR$/libraries/fc" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/libraries/app/application.cpp</url>
+          <line>306</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/programs/witness_node/main.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/compile_commands.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/app/api.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/fc/CMakeModules/FindBoost.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15660">
+          <caret line="1044" column="48" lean-forward="false" selection-start-line="1044" selection-start-column="48" selection-end-line="1044" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/app/application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+          <folding>
+            <element signature="e#1163#1194#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/protocol/account.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="166" column="35" lean-forward="false" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/account.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/base.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="26" lean-forward="false" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programs/witness_node/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/app/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/app/api.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/fc/CMakeModules/FindBoost.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15660">
+          <caret line="1044" column="48" lean-forward="false" selection-start-line="1044" selection-start-column="48" selection-end-line="1044" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/app/application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1163#1194#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/protocol/account.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="166" column="35" lean-forward="false" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/account.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/base.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="26" lean-forward="false" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programs/witness_node/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/app/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/app/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programs/witness_node/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/protocol/account.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="163" column="22" lean-forward="false" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/app/application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+          <folding>
+            <element signature="e#1163#1194#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/fc/CMakeModules/FindBoost.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="1044" column="48" lean-forward="false" selection-start-line="1044" selection-start-column="48" selection-end-line="1044" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/app/api.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/fc/include/fc/reflect/reflect.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3015">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genesis.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doxyfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compile_commands.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mac_env.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/account_evaluator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/buyback.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/exceptions.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="80" lean-forward="true" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/block_database.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/account.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1395">
+          <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <element signature="e#1176#1219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/opt/boost159/include/boost/container/flat_set.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="69" column="6" lean-forward="false" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/address.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="86" column="3" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
+          <folding>
+            <element signature="e#3365#3367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/ext.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2598">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/committee_member.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/chain_parameters.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/transaction.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1176#1225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/base.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+          <folding>
+            <element signature="e#4158#4170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/config.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="113" column="8" lean-forward="false" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/protocol/witness.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/witness.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
