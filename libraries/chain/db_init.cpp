@@ -46,6 +46,8 @@
 #include <graphene/chain/witness_object.hpp>
 #include <graphene/chain/witness_schedule_object.hpp>
 #include <graphene/chain/worker_object.hpp>
+#include <graphene/chain/product_object.hpp>
+#include <graphene/chain/goods_object.hpp>
 
 #include <graphene/chain/account_evaluator.hpp>
 #include <graphene/chain/asset_evaluator.hpp>
@@ -61,6 +63,8 @@
 #include <graphene/chain/withdraw_permission_evaluator.hpp>
 #include <graphene/chain/witness_evaluator.hpp>
 #include <graphene/chain/worker_evaluator.hpp>
+#include <graphene/chain/product_evaluator.hpp>
+#include <graphene/chain/goods_evaluator.hpp>
 
 #include <graphene/chain/protocol/fee_schedule.hpp>
 
@@ -126,6 +130,12 @@ const uint8_t witness_object::type_id;
 const uint8_t worker_object::space_id;
 const uint8_t worker_object::type_id;
 
+const uint8_t product_object::space_id;
+const uint8_t product_object::type_id;
+
+const uint8_t goods_object::space_id;
+const uint8_t goods_object::type_id;
+
 
 void database::initialize_evaluators()
 {
@@ -171,6 +181,8 @@ void database::initialize_evaluators()
    register_evaluator<transfer_from_blind_evaluator>();
    register_evaluator<blind_transfer_evaluator>();
    register_evaluator<asset_claim_fees_evaluator>();
+   register_evaluator<product_create_evaluator>();
+   register_evaluator<goods_create_evaluator>();
 }
 
 void database::initialize_indexes()

@@ -290,6 +290,7 @@ class wallet_api
        * This returns a list of the full account objects for all accounts whose private keys 
        * we possess.
        * @returns a list of account objects
+       * This returns a list of the full account objects for all accounts whose private keys
        */
       vector<account_object>            list_my_accounts();
       /** Lists all accounts registered in the blockchain.
