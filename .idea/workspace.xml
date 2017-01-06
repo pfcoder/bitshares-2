@@ -71,20 +71,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="269e3b0b-bede-4c85-89cd-73e8cb37f0a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/chain/goods_evaluator.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/chain/include/graphene/chain/goods_evaluator.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/chain/include/graphene/chain/goods_object.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/chain/include/graphene/chain/product_evaluator.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/chain/include/graphene/chain/product_object.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/chain/product_evaluator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BitShares.cbp" afterPath="$PROJECT_DIR$/BitShares.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/chain/CMakeLists.txt" afterPath="$PROJECT_DIR$/libraries/chain/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/chain/db_init.cpp" afterPath="$PROJECT_DIR$/libraries/chain/db_init.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/types.hpp" afterPath="$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/types.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp" afterPath="$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programs/cli_wallet/main.cpp" afterPath="$PROJECT_DIR$/programs/cli_wallet/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <ignored path="$PROJECT_DIR$/libraries/db/CMakeFiles/" />
@@ -137,8 +125,8 @@
       <file leaf-file-name="wallet.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libraries/wallet/wallet.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="1126" column="22" lean-forward="false" selection-start-line="1126" selection-start-column="22" selection-end-line="1126" selection-end-column="22" />
+            <state relative-caret-position="526">
+              <caret line="3090" column="0" lean-forward="false" selection-start-line="3090" selection-start-column="0" selection-end-line="3090" selection-end-column="0" />
               <folding>
                 <element signature="e#1163#1183#0" expanded="true" />
                 <element signature="e#2788#2811#0" expanded="true" />
@@ -148,11 +136,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wallet.hpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/fc/include/fc/api.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+              <folding>
+                <element signature="e#749#792#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api_connection.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/fc/include/fc/rpc/api_connection.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wallet.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-491">
-              <caret line="289" column="93" lean-forward="false" selection-start-line="289" selection-start-column="93" selection-end-line="289" selection-end-column="93" />
+            <state relative-caret-position="255">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#1177#1208#0" expanded="true" />
               </folding>
@@ -183,31 +193,11 @@
       <file leaf-file-name="api.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libraries/app/include/graphene/app/api.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2616">
+            <state relative-caret-position="-2218">
               <caret line="123" column="9" lean-forward="false" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
               <folding>
                 <element signature="e#1177#1217#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programs/witness_node/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programs/cli_wallet/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -222,11 +212,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programs/cli_wallet/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="267" column="43" lean-forward="true" selection-start-line="267" selection-start-column="43" selection-end-line="267" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -247,8 +237,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>create_ass</find>
-      <find>create_asset</find>
       <find>server-rpc-endpoint</find>
+      <find>create_asset</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -451,6 +441,84 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wallet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wallet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wallet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -936,12 +1004,12 @@
       <workItem from="1483335202017" duration="4085000" />
       <workItem from="1483412188593" duration="1585000" />
       <workItem from="1483414396236" duration="125000" />
-      <workItem from="1483414534805" duration="19674000" />
+      <workItem from="1483414534805" duration="24618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33243000" />
+    <option name="totallyTimeSpent" value="38187000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -954,9 +1022,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1721" height="1055" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21985058" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20791075" sideWeight="0.496875" order="11" side_tool="false" content_ui="tabs" />
@@ -964,10 +1032,10 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34685165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2482353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2482353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35325506" sideWeight="0.49588236" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26360726" sideWeight="0.49588236" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1030,46 +1098,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programs/cli_wallet/main.cpp</url>
-          <line>164</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/libraries/wallet/wallet.cpp</url>
+          <line>3090</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/transaction.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1176#1225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/config.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1442,38 +1483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/wallet/wallet.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="1126" column="22" lean-forward="false" selection-start-line="1126" selection-start-column="22" selection-end-line="1126" selection-end-column="22" />
-          <folding>
-            <element signature="e#1163#1183#0" expanded="true" />
-            <element signature="e#2788#2811#0" expanded="true" />
-            <element signature="e#3705#3717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/app/include/graphene/app/api.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2616">
-          <caret line="123" column="9" lean-forward="false" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-          <folding>
-            <element signature="e#1177#1217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491">
-          <caret line="289" column="93" lean-forward="false" selection-start-line="289" selection-start-column="93" selection-end-line="289" selection-end-column="93" />
-          <folding>
-            <element signature="e#1177#1208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/database.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -1500,9 +1509,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/programs/cli_wallet/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="267" column="43" lean-forward="true" selection-start-line="267" selection-start-column="43" selection-end-line="267" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/wallet/wallet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="3090" column="0" lean-forward="false" selection-start-line="3090" selection-start-column="0" selection-end-line="3090" selection-end-column="0" />
+          <folding>
+            <element signature="e#1163#1183#0" expanded="true" />
+            <element signature="e#2788#2811#0" expanded="true" />
+            <element signature="e#3705#3717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/fc/include/fc/api.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <element signature="e#749#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/fc/include/fc/rpc/api_connection.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/app/include/graphene/app/api.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2218">
+          <caret line="123" column="9" lean-forward="false" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+          <folding>
+            <element signature="e#1177#1217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#1177#1208#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
