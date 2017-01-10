@@ -1123,6 +1123,25 @@ public:
       return create_account_with_private_key(owner_privkey, account_name, registrar_account, referrer_account, broadcast, save_wallet);
    } FC_CAPTURE_AND_RETHROW( (account_name)(registrar_account)(referrer_account) ) }
 
+   signed_transaction create_product(string issuer,
+                                     string pub_key,
+                                     bool broadcast = false)
+   { try {
+         account_object issuer_account = get_account( issuer );
+         product_create_operation create_op;
+         create_op.issuer = issuer_account.id;
+         create_op.pub_key = public_key_type(pub_key);
+
+         signed_transaction tx;
+         tx.operations.push_back( create_op );
+         set_operation_fees( tx, _remote_db->get_global_properties().parameters.current_fees);
+         tx.validate();
+
+         return sign_transaction( tx, broadcast );
+
+      } FC_CAPTURE_AND_RETHROW( (issuer)(pub_key)(broadcast));
+   }
+
 
    signed_transaction create_asset(string issuer,
                                    string symbol,
@@ -3131,6 +3150,14 @@ signed_transaction wallet_api::transfer(string from, string to, string amount,
 {
    return my->transfer(from, to, amount, asset_symbol, memo, broadcast);
 }
+
+signed_transaction wallet_api::create_product(string issuer,
+                                        string pub_key,
+                                        bool broadcast)
+{
+   return my->create_product(issuer, pub_key, broadcast);
+}
+
 signed_transaction wallet_api::create_asset(string issuer,
                                             string symbol,
                                             uint8_t precision,

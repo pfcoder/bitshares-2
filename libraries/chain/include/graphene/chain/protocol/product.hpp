@@ -34,9 +34,10 @@ namespace graphene { namespace chain {
     */
    struct product
    {
-      product( product_id_type id = product_id_type() )
-      :id(id){}
+      product( product_id_type id = product_id_type(), public_key_type pk = public_key_type() )
+      :id(id), pub_key(pk){}
       product_id_type id;
+      public_key_type pub_key;
 
       void validate() const;
 
@@ -55,7 +56,8 @@ namespace graphene { namespace chain {
 
       asset           fee;
       /// This account must sign and pay the fee for this operation. Later, this account may update the product
-      account_id_type         issuer;
+      account_id_type issuer;
+      public_key_type pub_key;
 
       account_id_type fee_payer()const { return issuer; }
       void            validate()const;
@@ -63,9 +65,10 @@ namespace graphene { namespace chain {
    };
 } }
 
-FC_REFLECT( graphene::chain::product, (id) )
+FC_REFLECT( graphene::chain::product, (id)(pub_key) )
 FC_REFLECT( graphene::chain::product_create_operation::fee_parameters_type, (basic_fee)(price_per_kbyte) )
 FC_REFLECT( graphene::chain::product_create_operation,
             (fee)
             (issuer)
+            (pub_key)
           )

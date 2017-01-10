@@ -37,6 +37,7 @@ namespace graphene { namespace chain {
          static const uint8_t type_id = product_object_type;
 
          account_id_type  product_account;
+         public_key_type  pub_key;
       };
 
       // TODO: index
@@ -45,4 +46,5 @@ namespace graphene { namespace chain {
 
 FC_REFLECT_DERIVED( graphene::chain::product_object, (graphene::db::object),
                     (product_account)
+                    (pub_key)
 )

@@ -921,6 +921,11 @@ class wallet_api
        */
       signed_transaction cancel_order(object_id_type order_id, bool broadcast = false);
 
+      /** Create Product
+       *
+       */
+      signed_transaction create_product(string issuer, string pub_key, bool broadcast = false);
+
       /** Creates a new user-issued or market-issued asset.
        *
        * Many options can be changed later using \c update_asset()
@@ -1649,4 +1654,5 @@ FC_API( graphene::wallet::wallet_api,
         (blind_history)
         (receive_blind_transfer)
         (get_order_book)
+        (create_product)
       )
