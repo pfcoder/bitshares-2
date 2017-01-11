@@ -924,7 +924,7 @@ class wallet_api
       /** Create Product
        *
        */
-      signed_transaction create_product(string issuer, string pub_key, bool broadcast = false);
+      signed_transaction create_product(string issuer, public_key_type pub_key, bool broadcast = false);
 
       /** Creates a new user-issued or market-issued asset.
        *

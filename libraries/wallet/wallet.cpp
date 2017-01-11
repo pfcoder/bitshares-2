@@ -1124,7 +1124,7 @@ public:
    } FC_CAPTURE_AND_RETHROW( (account_name)(registrar_account)(referrer_account) ) }
 
    signed_transaction create_product(string issuer,
-                                     string pub_key,
+                                     public_key_type pub_key,
                                      bool broadcast = false)
    { try {
          account_object issuer_account = get_account( issuer );
@@ -3152,7 +3152,7 @@ signed_transaction wallet_api::transfer(string from, string to, string amount,
 }
 
 signed_transaction wallet_api::create_product(string issuer,
-                                        string pub_key,
+                                        public_key_type pub_key,
                                         bool broadcast)
 {
    return my->create_product(issuer, pub_key, broadcast);

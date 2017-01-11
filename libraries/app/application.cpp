@@ -161,6 +161,7 @@ namespace detail {
          }
          else
          {
+            /* Ignore public seeds
             vector<string> seeds = {
                "104.236.144.84:1777",               // puppies
                "128.199.143.47:2015",               // Harvey
@@ -189,7 +190,7 @@ namespace detail {
                   wlog( "caught exception ${e} while adding seed node ${endpoint}",
                            ("e", e.to_detail_string())("endpoint", endpoint_string) );
                }
-            }
+            }*/
          }
 
          if( _options->count("p2p-endpoint") )

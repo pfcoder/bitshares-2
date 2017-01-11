@@ -2,56 +2,56 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
-      <config projectName="BitShares" targetName="bloom_test" />
-      <config projectName="BitShares" targetName="graphene_delayed_node" />
-      <config projectName="BitShares" targetName="size_checker" />
-      <config projectName="BitShares" targetName="cat-parts" />
+      <config projectName="BitShares" targetName="app_test" />
       <config projectName="BitShares" targetName="graphene_net" />
-      <config projectName="BitShares" targetName="graphene_chain" />
-      <config projectName="BitShares" targetName="hmac_test" />
-      <config projectName="BitShares" targetName="real128_test" />
-      <config projectName="BitShares" targetName="project_secp256k1" />
-      <config projectName="BitShares" targetName="ecc_test" />
-      <config projectName="BitShares" targetName="chain_test" />
-      <config projectName="BitShares" targetName="blinding_test" />
-      <config projectName="BitShares" targetName="chain_bench" />
-      <config projectName="BitShares" targetName="graphene_time" />
-      <config projectName="BitShares" targetName="graphene_db" />
-      <config projectName="BitShares" targetName="convert_address" />
-      <config projectName="BitShares" targetName="graphene_utilities" />
-      <config projectName="BitShares" targetName="witness_node" />
-      <config projectName="BitShares" targetName="ntp_test" />
-      <config projectName="BitShares" targetName="js_operation_serializer" />
+      <config projectName="BitShares" targetName="graphene_egenesis_none" />
+      <config projectName="BitShares" targetName="graphene_app" />
       <config projectName="BitShares" targetName="cli_wallet" />
       <config projectName="BitShares" targetName="generate_empty_blocks" />
-      <config projectName="BitShares" targetName="graphene_wallet" />
-      <config projectName="BitShares" targetName="deterministic_openssl_rand" />
       <config projectName="BitShares" targetName="delayed_node" />
-      <config projectName="BitShares" targetName="udt_server" />
-      <config projectName="BitShares" targetName="graphene_egenesis_none" />
-      <config projectName="BitShares" targetName="fc" />
-      <config projectName="BitShares" targetName="intense_test" />
-      <config projectName="BitShares" targetName="graphene_witness" />
-      <config projectName="BitShares" targetName="api" />
-      <config projectName="BitShares" targetName="blind" />
-      <config projectName="BitShares" targetName="build_hardfork_hpp" />
-      <config projectName="BitShares" targetName="graphene_debug_witness" />
-      <config projectName="BitShares" targetName="embed_genesis" />
-      <config projectName="BitShares" targetName="app_test" />
-      <config projectName="BitShares" targetName="genesis_update" />
-      <config projectName="BitShares" targetName="debug_node" />
-      <config projectName="BitShares" targetName="performance_test" />
-      <config projectName="BitShares" targetName="graphene_account_history" />
-      <config projectName="BitShares" targetName="udt_client" />
-      <config projectName="BitShares" targetName="graphene_egenesis_full" />
       <config projectName="BitShares" targetName="all_tests" />
-      <config projectName="BitShares" targetName="graphene_egenesis_brief" />
-      <config projectName="BitShares" targetName="get_dev_key" />
-      <config projectName="BitShares" targetName="member_enumerator" />
       <config projectName="BitShares" targetName="udt" />
-      <config projectName="BitShares" targetName="task_cancel_test" />
+      <config projectName="BitShares" targetName="performance_test" />
+      <config projectName="BitShares" targetName="graphene_db" />
+      <config projectName="BitShares" targetName="witness_node" />
+      <config projectName="BitShares" targetName="ecc_test" />
+      <config projectName="BitShares" targetName="get_dev_key" />
+      <config projectName="BitShares" targetName="udt_server" />
+      <config projectName="BitShares" targetName="fc" />
+      <config projectName="BitShares" targetName="graphene_wallet" />
+      <config projectName="BitShares" targetName="embed_genesis" />
+      <config projectName="BitShares" targetName="graphene_egenesis_brief" />
+      <config projectName="BitShares" targetName="hmac_test" />
+      <config projectName="BitShares" targetName="convert_address" />
+      <config projectName="BitShares" targetName="bloom_test" />
+      <config projectName="BitShares" targetName="deterministic_openssl_rand" />
+      <config projectName="BitShares" targetName="graphene_chain" />
+      <config projectName="BitShares" targetName="graphene_account_history" />
       <config projectName="BitShares" targetName="graphene_market_history" />
-      <config projectName="BitShares" targetName="graphene_app" />
+      <config projectName="BitShares" targetName="genesis_update" />
+      <config projectName="BitShares" targetName="api" />
+      <config projectName="BitShares" targetName="size_checker" />
+      <config projectName="BitShares" targetName="debug_node" />
+      <config projectName="BitShares" targetName="task_cancel_test" />
+      <config projectName="BitShares" targetName="graphene_time" />
+      <config projectName="BitShares" targetName="graphene_utilities" />
+      <config projectName="BitShares" targetName="graphene_egenesis_full" />
+      <config projectName="BitShares" targetName="member_enumerator" />
+      <config projectName="BitShares" targetName="real128_test" />
+      <config projectName="BitShares" targetName="build_hardfork_hpp" />
+      <config projectName="BitShares" targetName="project_secp256k1" />
+      <config projectName="BitShares" targetName="blinding_test" />
+      <config projectName="BitShares" targetName="chain_test" />
+      <config projectName="BitShares" targetName="graphene_witness" />
+      <config projectName="BitShares" targetName="graphene_delayed_node" />
+      <config projectName="BitShares" targetName="graphene_debug_witness" />
+      <config projectName="BitShares" targetName="udt_client" />
+      <config projectName="BitShares" targetName="chain_bench" />
+      <config projectName="BitShares" targetName="ntp_test" />
+      <config projectName="BitShares" targetName="intense_test" />
+      <config projectName="BitShares" targetName="cat-parts" />
+      <config projectName="BitShares" targetName="js_operation_serializer" />
+      <config projectName="BitShares" targetName="blind" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -60,8 +60,8 @@
         <ADDITIONAL_GENERATION_ENVIRONMENT>
           <envs>
             <env name="OPENSSL_ROOT_DIR" value="/usr/local/opt/openssl/" />
-            <env name="OPENSSL_INCLUDE_DIR" value="/usr/local/opt/openssl/include" />
-            <env name="OPENSSL_LIBRARIES" value="/usr/local/opt/openssl/lib" />
+            <env name="OPENSSL_INCLUDE_DIR" value="/usr/local/opt/openssl/include/" />
+            <env name="OPENSSL_LIBRARIES" value="/usr/local/opt/openssl/lib/" />
             <env name="BOOST_INCLUDEDIR" value="/usr/local/opt/boost159/include/" />
             <env name="BOOST_LIBRARYDIR" value="/usr/local/opt/boost159/lib/" />
           </envs>
@@ -72,8 +72,7 @@
   <component name="ChangeListManager">
     <list default="true" id="269e3b0b-bede-4c85-89cd-73e8cb37f0a2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/chain/include/graphene/chain/product_object.hpp" afterPath="$PROJECT_DIR$/libraries/chain/include/graphene/chain/product_object.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/product.hpp" afterPath="$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/product.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/app/application.cpp" afterPath="$PROJECT_DIR$/libraries/app/application.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp" afterPath="$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/wallet/wallet.cpp" afterPath="$PROJECT_DIR$/libraries/wallet/wallet.cpp" />
     </list>
@@ -128,8 +127,8 @@
       <file leaf-file-name="wallet.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libraries/wallet/wallet.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="3157" column="0" lean-forward="false" selection-start-line="3157" selection-start-column="0" selection-end-line="3157" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="3122" column="47" lean-forward="false" selection-start-line="3122" selection-start-column="31" selection-end-line="3122" selection-end-column="47" />
               <folding>
                 <element signature="e#1163#1183#0" expanded="true" />
                 <element signature="e#2788#2811#0" expanded="true" />
@@ -139,31 +138,51 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="bidir_node_iterator.hpp" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/boost/multi_index/detail/bidir_node_iterator.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ord_index_impl.hpp" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/boost/multi_index/detail/ord_index_impl.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ord_index_node.hpp" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/boost/multi_index/detail/ord_index_node.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/app/application.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="175" column="59" lean-forward="false" selection-start-line="175" selection-start-column="59" selection-end-line="175" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="types.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libraries/chain/protocol/types.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/product.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_object.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/product_object.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+            <state relative-caret-position="187">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,21 +191,11 @@
       <file leaf-file-name="wallet.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16734">
-              <caret line="1489" column="55" lean-forward="false" selection-start-line="1489" selection-start-column="55" selection-end-line="1489" selection-end-column="55" />
+            <state relative-caret-position="-4409">
+              <caret line="929" column="8" lean-forward="true" selection-start-line="929" selection-start-column="8" selection-end-line="929" selection-end-column="8" />
               <folding>
                 <element signature="e#1177#1208#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_evaluator.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraries/chain/product_evaluator.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -201,31 +210,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="asset_object.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraries/chain/asset_object.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="account.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/account.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+            <state relative-caret-position="555">
+              <caret line="94" column="12" lean-forward="false" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_object.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/account_object.hpp">
+      <file leaf-file-name="authority.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/authority.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-8">
+              <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -237,8 +236,13 @@
     <findStrings>
       <find>create_ass</find>
       <find>server-rpc-endpoint</find>
-      <find>create_asset</find>
       <find>public_key_type</find>
+      <find>create_assetun</find>
+      <find>create_asset</find>
+      <find>import_key</find>
+      <find>create_pro</find>
+      <find>register_account</find>
+      <find>create_product</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -262,8 +266,9 @@
         <option value="$PROJECT_DIR$/programs/cli_wallet/main.cpp" />
         <option value="$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/product.hpp" />
         <option value="$PROJECT_DIR$/libraries/chain/include/graphene/chain/product_object.hpp" />
-        <option value="$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp" />
+        <option value="$PROJECT_DIR$/libraries/app/application.cpp" />
         <option value="$PROJECT_DIR$/libraries/wallet/wallet.cpp" />
+        <option value="$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp" />
       </list>
     </option>
   </component>
@@ -403,24 +408,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="programs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli_wallet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BitShares" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitshares-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -473,6 +460,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitShares" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitshares-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -482,7 +487,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager" selected="Application.cli_wallet">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -958,12 +963,12 @@
       <workItem from="1483414534805" duration="24943000" />
       <workItem from="1483932102696" duration="8885000" />
       <workItem from="1484020843431" duration="36000" />
-      <workItem from="1484020898641" duration="3230000" />
+      <workItem from="1484020898641" duration="10073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50663000" />
+    <option name="totallyTimeSpent" value="57506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -988,7 +993,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2482353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54962647" sideWeight="0.49588236" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22518677" sideWeight="0.49588236" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1050,56 +1055,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/libraries/wallet/wallet.cpp</url>
+          <line>1132</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="14" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/worker_evaluator.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programs/witness_node/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/chain/db_management.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="4774" column="0" lean-forward="false" selection-start-line="4774" selection-start-column="0" selection-end-line="4774" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/witness_evaluator.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="32" column="57" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/witness.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/goods.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -1111,6 +1081,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="879">
           <caret line="83" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="e#1176#1220#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1264,13 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/app/application.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4065">
-          <caret line="271" column="54" lean-forward="false" selection-start-line="271" selection-start-column="54" selection-end-line="271" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/wallet/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1323,6 +1289,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,14 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/account.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1396,16 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16734">
-          <caret line="1489" column="55" lean-forward="false" selection-start-line="1489" selection-start-column="55" selection-end-line="1489" selection-end-column="55" />
-          <folding>
-            <element signature="e#1177#1208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/product.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1422,10 +1371,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/account.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="94" column="12" lean-forward="false" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/utilities/key_conversion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/egenesis/egenesis_full.cpp">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/app/application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="175" column="59" lean-forward="false" selection-start-line="175" selection-start-column="59" selection-end-line="175" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/boost/multi_index/detail/ord_index_node.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/boost/multi_index/detail/ord_index_impl.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/boost/multi_index/detail/bidir_node_iterator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/chain/include/graphene/chain/protocol/authority.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/wallet/wallet.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="3157" column="0" lean-forward="false" selection-start-line="3157" selection-start-column="0" selection-end-line="3157" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="3122" column="47" lean-forward="false" selection-start-line="3122" selection-start-column="31" selection-end-line="3122" selection-end-column="47" />
           <folding>
             <element signature="e#1163#1183#0" expanded="true" />
             <element signature="e#2788#2811#0" expanded="true" />
@@ -1434,10 +1444,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/wallet/include/graphene/wallet/wallet.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4409">
+          <caret line="929" column="8" lean-forward="true" selection-start-line="929" selection-start-column="8" selection-end-line="929" selection-end-column="8" />
+          <folding>
+            <element signature="e#1177#1208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/chain/protocol/types.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
